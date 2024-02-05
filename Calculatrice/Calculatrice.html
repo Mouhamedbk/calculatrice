@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+
+<div class="container">
+<div class=" box">
+    
+    <!--INPUT nombre-->
+<label for="nombre1" >Nombre 1</label>
+<input id="nombre1" type="text">
+<label for="nombre2" > Nombre 2</label>
+<input id="nombre2" type="text">
+
+    <!--OPEREATEUR-->
+<label for="option" >Operateur</label>
+<select id="option">
+    <option value="somme">somme</option>
+    <option value="difference">difference</option>
+    <option value="division">division</option>
+    <option value="produit">produit</option>
+</select>
+
+    <!--button-->
+    <button id="btn" onclick="valider()">valider</button>
+
+    <!--INPUT Resutlat-->
+<label for="resulta" >resultat</label>
+<input  id = "resulta" readonly type="text">
+
+    <!--CONVERSATION binaire  A DECIMAL Vv-->
+
+    <h3 style="text-align: center">Convertir decimal en binair</h3>
+    <!--Decimal-->
+    <label for="decimal">Decimal</label>
+    <input  id = "decimal" type="text">
+
+    <!--binaire-->
+    <label for="binaire">Binaire</label>
+    <input  id = "binaire" readonly type="text">
+    <button id="btn1" onclick="Valider()">convertir</button>
+
+</div>
+</div>
+
+</body>
+<script src="traitement.js"></script>
+</html>

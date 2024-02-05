@@ -1,0 +1,53 @@
+/*body{*/
+/*    background-color: rebeccapurple;*/
+/*    hmargin-leftt: auto;*/
+
+/*}*/
+
+.container{
+    background-color: rgba(128, 128, 128, 0.7);
+    position: relative;
+    height: 90vh;
+    width: 90vh;
+    left: 30%;
+    border-radius: 10px;
+}
+.box{
+    position: relative;
+    bottom: -10vh;
+    display: grid;
+    margin: 70px;
+    padding-top: 10px;
+
+
+}
+
+input ,select{
+    position: relative;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+input{
+    outline: none;
+}
+
+
+/*label */
+label{
+    font-size: 30px;
+}
+
+
+/*boutton */
+#btn, #btn1{
+    background-color: green;
+    position: inherit;
+    height: 60px;
+    bottom: -10px;
+    width: 100px;
+    left: 45%;
+    border-radius: 10px;
+    font-size: 20px;
+}
